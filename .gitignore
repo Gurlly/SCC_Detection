@@ -1,0 +1,17 @@
+# === Backend (FastAPI) ===
+backend/__pycache__/
+backend/venv/
+backend/models/
+backend/.env
+*.pyc
+
+# === Frontend (Vite) ===
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.vite/
+
+# === General ===
+.env
+.DS_Store
+Thumbs.db
