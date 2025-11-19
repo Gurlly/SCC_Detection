@@ -317,6 +317,8 @@ async def predict(
     normalize_stains: bool = Form(True)
 ):
     """Predict SCC classification with optional stain normalization"""
+    
+    print(f"With Stain Normalization: {normalize_stains}")
     try:
         # Validate file type
         if not file.content_type.startswith('image/'):
